@@ -24,11 +24,21 @@ h1 {
 
 .home-link {
   text-decoration: none;
+  color: inherit; /* eredita il bianco dal <h1> */
+}
+
+.home-link:visited {
   color: inherit;
+  text-decoration: none;
 }
 
 .home-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #9d0606; /* colore a tua scelta sul passaggio del mouse */
+}
+
+.home-link:focus {
+  outline: none;
 }
 
 
